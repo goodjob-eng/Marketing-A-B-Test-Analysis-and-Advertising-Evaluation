@@ -30,22 +30,6 @@
 |---|
 | ![Stratified by Most Ads Hour](docs/figures/stratified_by_most_ads_hour.png) |
 
-## 🚀 快速开始
-
-**第一次使用？** 请先阅读 [START_HERE.md](START_HERE.md)
-
-```bash
-# 1. 下载数据集（从 Kaggle）
-# 2. 配置环境
-python -m venv venv
-./venv/bin/pip install -r requirements.txt
-
-# 3. 运行分析（可复现执行，会生成 docs/figures 下的图表）
-./venv/bin/python -m jupyter nbconvert --execute --to notebook --inplace notebooks/01_marketing_ab_test.ipynb
-
-# 4.（可选）交互式打开
-./venv/bin/python -m jupyter notebook notebooks/01_marketing_ab_test.ipynb
-```
 
 ## 项目概述
 
@@ -126,6 +110,3 @@ marketing_ab_testing/
 - [Kaggle Dataset](https://www.kaggle.com/datasets/faviovaz/marketing-ab-testing)
 - [A/B Testing Best Practices](https://www.exp-platform.com/)
 
-## License
-
-MIT License
